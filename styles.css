@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.rating {
+    display: flex;
+    cursor: pointer;
+}
+
+.star {
+    font-size: 2rem;
+    color: #ddd;
+    transition: color 0.3s ease;
+}
+
+.star.selected {
+    color: gold;
+}
+
+.rating-value {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
